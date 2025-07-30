@@ -15,6 +15,16 @@ This demo is not just for developers—it also illustrates clear **business valu
 - **AI Governance Ready:** Ensure compliance, monitoring, and risk management.
 - **Enterprise Alignment:** Demonstrates how secure and governed AI adoption accelerates business outcomes.
 
+```mermaid
+graph TD
+    A[AI Agent Deployment] --> B[Cost Efficiency]
+    A --> C[Scalability & Security]
+    A --> D[AI Governance Compliance]
+    B --> E[Business Value]
+    C --> E
+    D --> E
+    E --> F[Increased Trust & Faster Adoption]
+
 
 ## 📌 Features
 - FastAPI application for AI inference
