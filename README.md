@@ -92,5 +92,5 @@ graph TD
 ---
 
 ### Author
-**AI Governance Lab**  
+**Marian Ropota**  
 Building secure, automated, and governed AI solutions
