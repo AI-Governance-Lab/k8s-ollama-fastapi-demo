@@ -1,5 +1,7 @@
 # K8s Ollama FastAPI Demo
 
+![Ollama Architecture](./ollama.png)
+
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/yourusername/k8s-ollama-fastapi-demo/actions)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
