@@ -42,10 +42,27 @@ pip install -r app/requirements.txt
 uvicorn app.main:app --reload
 ```
 
-### 4️⃣ Deploy to Kubernetes
+### 4️⃣ Build Docker Image
+```bash
+docker build -t fastapi-ollama:latest app/
+```
+
+### 5️⃣ Load Docker Image into Kubernetes (for Minikube)
+```bash
+minikube image load fastapi-ollama:latest
+```
+*(If using a remote registry, push the image and update the deployment manifest accordingly.)*
+
+### 6️⃣ Deploy to Kubernetes
 ```bash
 kubectl apply -f k8s/
 ```
+
+### 7️⃣ Access the Service
+```bash
+kubectl port-forward svc/fastapi-ollama-service 8000:80
+```
+Then open [http://localhost:8000](http://localhost:8000) in your browser.
 
 ## 🛠 Architecture
 ```mermaid

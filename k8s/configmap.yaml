@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: fastapi-ollama-config
+data:
+  # Configuration data can be added here
+  EXAMPLE_KEY: "example_value"
