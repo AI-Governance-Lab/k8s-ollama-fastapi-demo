@@ -91,6 +91,5 @@ graph TD
 
 ---
 
-### Author
-**Marian Ropota**  
-Building secure, automated, and governed AI solutions
+📌 Notes  
+This repository is maintained as part of my personal learning and PoC development for AI Governance.
