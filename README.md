@@ -24,7 +24,7 @@ graph TD
     C --> E
     D --> E
     E --> F[Increased Trust & Faster Adoption]
-
+```
 
 ## 📌 Features
 - FastAPI application for AI inference
