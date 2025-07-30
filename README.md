@@ -1,10 +1,13 @@
 # K8s Ollama FastAPI Demo
 
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/yourusername/k8s-ollama-fastapi-demo/actions)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 This repository demonstrates a simple deployment of **FastAPI** integrated with **Ollama** (LLM serving) on a Kubernetes cluster. It is designed to showcase how AI inference services can be containerized, deployed, and managed in a cloud-native environment.
 
 ## 📌 Features
 - FastAPI application for AI inference
-- Ollama integration for running LLMs
+- Ollama integration for running LLMs *(coming soon)*
 - Kubernetes manifests for deployment
 - Example configuration for local development and testing
 - Extensible architecture for adding AI governance tools (MLflow, Evidently, OPA)
@@ -76,12 +79,13 @@ graph TD
 
 ## 📌 Notes
 - This is a demo repository for educational purposes.
+- Ollama integration is a planned feature. See the roadmap below.
 - Future versions may include Watsonx.ai integration.
 - Governance tools (MLflow, Evidently, OPA) will be optional add-ons.
 
-## 🗺 Roadmap
-- [ ] Initial FastAPI and Kubernetes deployment
-- [ ] Add Ollama inference integration
+## 🟡 TODOs / Roadmap
+- [x] Initial FastAPI and Kubernetes deployment
+- [ ] Add Ollama inference integration *(placeholder in `app/main.py`)*
 - [ ] Integrate AI governance tools (MLflow, Evidently, OPA)
 - [ ] Create public demo with GitHub Actions CI/CD
 
@@ -89,4 +93,4 @@ graph TD
 
 ### Author
 **AI Governance Lab**  
-Building secure, automated, and governed AI solutions on Kubernetes.
+Building secure, automated, and governed AI solutions
